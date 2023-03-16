@@ -1,6 +1,6 @@
 # Use the getData() function to fetch data anywhere in your vue app
 
-## import getData from '@/pathOfWhereYouPlacedTheFile/getData.js';
+    import getData from '@/pathOfWhereYouPlacedTheFile/getData.js';
 
 const [data, error, loadFunction] = getData();
 
@@ -8,10 +8,10 @@ const [data, error, loadFunction] = getData();
 
 // to make the fetch, place the loadFunction inside the setup() function for your vue component:
 
-setup(){
+    setup(){
 
-    const url = 'https://example.com/'
+        const url = 'https://example.com/'
 
-    loadFunction(url);
+        loadFunction(url);
 
-};
+    };
